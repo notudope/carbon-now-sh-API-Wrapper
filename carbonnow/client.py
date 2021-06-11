@@ -11,6 +11,7 @@ class Carbon:
     def __init__(
         self,
         *,
+        base_url: Optional[str] = 'https://carbon.pokurt.me/api/cook'
         code: str,
         background: Optional[str] = None,
         drop_shadow: Optional[str] = None,
@@ -98,7 +99,7 @@ class Carbon:
                 params['windowTheme'] = str(self.window_theme)
             try:
                 request = await ses.post(
-                    f'https://carbon.pokurt.me/api/cook',
+                    self.base_url,
                     json=params,
                 )
             except aiohttp.client_exceptions.ClientConnectorError:
