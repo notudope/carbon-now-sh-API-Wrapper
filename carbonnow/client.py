@@ -11,7 +11,7 @@ class Carbon:
     def __init__(
         self,
         *,
-        base_url: Optional[str] = 'https://carbon.pokurt.me/api/cook'
+        base_url: Optional[str] = 'https://carbon.pokurt.me/api/cook',
         code: str,
         background: Optional[str] = None,
         drop_shadow: Optional[str] = None,
