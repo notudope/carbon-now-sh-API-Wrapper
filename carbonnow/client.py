@@ -11,7 +11,7 @@ class Carbon:
     def __init__(
         self,
         *,
-        base_url: Optional[str] = 'https://carbon.pokurt.me/api/cook',
+        base_url: Optional[str] = 'https://carbonara.vercel.app/api/cook',
         code: str,
         background: Optional[str] = None,
         drop_shadow: Optional[str] = None,
@@ -32,6 +32,7 @@ class Carbon:
         window_controls: Optional[bool] = None,
         window_theme: Optional[str] = None,
     ) -> None:
+        self.base_url = base_url
         self.code = code
         self.background = background
         self.drop_shadow = drop_shadow

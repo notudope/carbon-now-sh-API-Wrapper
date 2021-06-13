@@ -55,4 +55,4 @@ Check [example.py](https://github.com/OpenRestfulAPI/carbon-now-sh-API-Wrapper/b
 ### ©️ Copyrights
 
 Licensed with GPLv3,
-This Project was made by an indivial on [Telegram](https://t.me/DeprecatedUser). The person who made this API wrapper has nothing to do with [Carbon](https://carbon.now.sh) or [Carbonara](https://github.com/petersolopov/carbonara). Therefore All rights reserved to [Carbon](https://carbon.now.sh) and  [Carbonara](https://github.com/petersolopov/carbonara)'s Rightful Owner [Peter Solopov](https://github.com/petersolopov) Himself.
+This Project was made by an indivial on [Telegram](https://t.me/CustomIcon). The person who made this API wrapper has nothing to do with [Carbon](https://carbon.now.sh) or [Carbonara](https://github.com/petersolopov/carbonara). Therefore All rights reserved to [Carbon](https://carbon.now.sh) and  [Carbonara](https://github.com/petersolopov/carbonara)'s Rightful Owner [Peter Solopov](https://github.com/petersolopov) Himself.
