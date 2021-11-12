@@ -1,15 +1,11 @@
 #!/usr/bin/env python
 import setuptools
 
-with open('README.md') as fh:
-    long_description = fh.read()
-
-
 setuptools.setup(
     name='carbonnow',
     version='0.2',
     description='carbon.now.sh API Wrapper powered by Carbonara',
-    long_description=long_description,
+    long_description='long_description',
     long_description_content_type='text/markdown',
     license='GNU Lesser General Public License v3 (LGPLv3)',
     author='Pokurt',
