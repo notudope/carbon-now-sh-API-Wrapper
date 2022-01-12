@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name='carbonnow',
-    version='0.2',
+    version='0.3',
     description='carbon.now.sh API Wrapper powered by Carbonara',
     long_description='long_description',
     long_description_content_type='text/markdown',
@@ -16,6 +16,6 @@ setuptools.setup(
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python :: 3.8',
     ],
-    install_requires=['aiohttp','asyncio'],
+    install_requires=['aiohttp'],
     python_requires='>=3.6',
 )
